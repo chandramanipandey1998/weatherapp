@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+.search{
+    flex: .5;
+}
+input[type="text"]
+{
+    
+    height: 30px;
+    width:60%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+    
+    height: 30px;
+    width: 30%;
+    border: black;
+    border-radius: 10px;
+}
+#result{
+    text-align: center;
+    align-items: center;
+    background-color:white;
+}
